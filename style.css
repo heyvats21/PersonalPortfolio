@@ -125,7 +125,6 @@ its a good practice */
 
 
 /* footer */
-
 .footer{
     background-color: var(--primary-color);
     padding: 2rem 1rem;
@@ -136,6 +135,7 @@ its a good practice */
 .footer .link{
     color: white;
 }
+
 
 .footer ul{/* social links part*/
     padding-inline-start: 0px;   /* we have got this form inspecting the website*/
