@@ -9,6 +9,10 @@ body{
 }
 
 
+hr{
+    margin: 2.5rem 0rem;
+}
+
 /* container */
 .container{
     /* padding-left: 1rem;
@@ -43,3 +47,15 @@ body{
 
 /* look into BEM naming convention for css
 its a good practice */
+
+
+/* list */
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
