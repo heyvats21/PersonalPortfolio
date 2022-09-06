@@ -2,6 +2,7 @@
 
 :root{
     --primary-color:#A460ED;
+    --dark-grey:#383838
 }
 
 body{
@@ -59,3 +60,49 @@ its a good practice */
     padding: 0rem 0.5rem;
 }
 
+/* navigation */
+
+.navigation{
+    background-color: var(--primary-color);
+    color: whitesmoke;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;   /* navigation radius*/
+} 
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.rem;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+
+.navigation .link{
+    color: whitesmoke;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+/* Header */
+
+.hero{
+    padding: 2rem ;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{ 
+    padding-top: 1rem;   
+    color: var(--dark-grey);
+}
+
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
+}
