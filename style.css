@@ -8,6 +8,7 @@
 
 body{
     font-family: 'Ubuntu', sans-serif;
+   
 }
 
 
@@ -100,6 +101,7 @@ its a good practice */
 }
 
 .hero .hero-heading{ 
+    text-align: center;
     padding-top: 1rem;   
     color: var(--dark-grey);
 }
@@ -121,4 +123,22 @@ its a good practice */
     background-color: var(--off-white);
 }
 
+
+/* footer */
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: whitesmoke;
+    border-top-right-radius:1rem ;
+}
+.footer .link{
+    color: white;
+}
+
+.footer ul{/* social links part*/
+    padding-inline-start: 0px;   /* we have got this form inspecting the website*/
+
+}
 
