@@ -2,7 +2,8 @@
 
 :root{
     --primary-color:#A460ED;
-    --dark-grey:#383838
+    --dark-grey:#383838;
+    --off-white:#e2e8f0;
 }
 
 body{
@@ -106,3 +107,18 @@ its a good practice */
 .hero .hero-heading .heading-inverted{
     color: var(--primary-color);
 }
+
+/* section */
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+
